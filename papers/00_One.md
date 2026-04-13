@@ -170,7 +170,7 @@ The author used Claude (Anthropic) as a computational tool for mathematical veri
 
 ## References
 
-Chung, F.R.K. Spectral Graph Theory. CBMS 92, AMS (1997).
-Regge, T. General relativity without coordinates. Nuovo Cim. 19 (1961).
-Schur, I. Neue Begründung der Theorie der Gruppencharaktere. Sitzungsber. Preuss. Akad. (1905).
-Wilson, K.G. Confinement of quarks. Phys. Rev. D 10 (1974).
+- Chung, F.R.K. Spectral Graph Theory. CBMS 92, AMS (1997).
+- Regge, T. General relativity without coordinates. Nuovo Cim. 19 (1961).
+- Schur, I. Neue Begründung der Theorie der Gruppencharaktere. Sitzungsber. Preuss. Akad. (1905).
+- Wilson, K.G. Confinement of quarks. Phys. Rev. D 10 (1974).
