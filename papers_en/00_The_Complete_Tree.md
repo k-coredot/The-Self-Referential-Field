@@ -434,7 +434,7 @@ Every leaf matches known physics. Where independent computational confirmation e
 | §25 | 3×3 unitary, 1 phase | CP violation | — |
 | §26 | Three Sakharov conditions | Baryon asymmetry | — |
 | §27 | Scale-dependent coupling | Asymptotic freedom / QED running | Lattice: running coupling [ALPHA collaboration] |
-| §28 | ⟨S_el⟩ = |E|/2 | Zero-point energy | — |
+| §28 | ⟨S_el⟩ = \|E\|/2 | Zero-point energy | — |
 | §28 | Ψ(H) ⊆ H at ρ > ρ_meta | — | Brouwer + IVT (analytic) |
 | §29 | OS positivity (full dynamics) | Quantum mechanics (postulated) | OS for Wilson action [Osterwalder & Seiler 1978] |
 | §29 | Born rule (unconditional) | Born rule (postulated) | — |
