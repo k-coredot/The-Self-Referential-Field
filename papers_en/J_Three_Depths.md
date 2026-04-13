@@ -12,7 +12,7 @@ Hyeokjun Kwon — April 2026
 
 ## 1. Self-Referential Depth
 
-The operator T = C · S is self-referential: T depends on the field Φ through C = ⟨φ_a, φ_b⟩, and Φ evolves through T. This is depth 1: the field reads itself.
+The operator T = C ⊙ S is self-referential: T depends on the field Φ through C = ⟨φ_a, φ_b⟩, and Φ evolves through T. This is depth 1: the field reads itself.
 
 But the result of the reading — the propagated field Φ' = TΦ — is itself a field. It can be read. The operator at the next step, T' = T[Φ'], reads the result of the first reading. This is depth 2.
 
@@ -93,7 +93,7 @@ The strength of the coupling at each depth is determined by the number of genera
 
 **Depth 3 (8 generators):** Eight feedback channels. The most channels means the strongest coupling. At strong coupling, the mediating fields self-interact (non-abelian). Self-interaction produces confinement: excitations are permanently bound (see Complete Tree, §18).
 
-**Depth 2 (3 generators):** Three feedback channels. Intermediate coupling. Non-abelian, but weaker than depth 3. The expansion of geometry (Paper G) breaks the vacuum symmetry at depth 2. The product T = C · S couples geometry and content: when geometric symmetry breaks, content symmetry inherits the breaking. Three mediators acquire mass.
+**Depth 2 (3 generators):** Three feedback channels. Intermediate coupling. Non-abelian, but weaker than depth 3. The expansion of geometry (Paper G) breaks the vacuum symmetry at depth 2. The product T = C ⊙ S couples geometry and content: when geometric symmetry breaks, content symmetry inherits the breaking. Three mediators acquire mass.
 
 **Depth 1 (1 generator):** One feedback channel. Weakest gauge coupling. Abelian — the mediator carries no charge, does not self-interact. No mechanism for mass acquisition. The mediator is massless.
 

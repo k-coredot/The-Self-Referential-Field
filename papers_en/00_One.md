@@ -22,7 +22,7 @@ Faithful reading: the derivative ∂f/∂C at C = 0 must be finite (well-posed d
 
 Therefore α = 1. By symmetry, β = 1.
 
-    T = C · S
+    T = C ⊙ S
 
 This is the unique self-referential edge operator. No alternative exists. The proof is the computation 0^{α−1}: singular below one, degenerate above one, regular at one. Arithmetic.
 
@@ -136,7 +136,7 @@ Three excitations with identical quantum numbers and different masses.
 
 8 generators: strongest coupling. Excitations permanently bound — never isolated. The mediator carries charge and self-interacts.
 
-3 generators: intermediate. Geometric expansion breaks the vacuum symmetry. The product T = C · S couples geometry to gauge: when S breaks symmetry, C inherits the breaking. Three mediators acquire mass.
+3 generators: intermediate. Geometric expansion breaks the vacuum symmetry. The product T = C ⊙ S couples geometry to gauge: when S breaks symmetry, C inherits the breaking. Three mediators acquire mass.
 
 1 generator: weakest gauge coupling. The mediator carries no charge, does not self-interact, remains massless. Inverse-square law. Infinite range.
 
@@ -148,7 +148,7 @@ Geometric excitations: weakest of all. Mass set by κ, structurally separate fro
 
 From one axiom — a field reads itself — the following are derived, not assumed:
 
-The operator (T = C · S). The action. The mass gap (1−1−1+1=0). The expansion. The uniformity (AM-GM). The charge conservation (Stokes). The spinor (even polynomials vanish at zero). The interference (spinor forces ℂ). The wave-particle unity (complex exponential). Three gauge symmetries with 1, 3, 8 generators. Four spacetime dimensions (12/6=2). Three generations. The coupling hierarchy.
+The operator (T = C ⊙ S). The action. The mass gap (1−1−1+1=0). The expansion. The uniformity (AM-GM). The charge conservation (Stokes). The spinor (even polynomials vanish at zero). The interference (spinor forces ℂ). The wave-particle unity (complex exponential). Three gauge symmetries with 1, 3, 8 generators. Four spacetime dimensions (12/6=2). Three generations. The coupling hierarchy.
 
 The measure is unique (Haar on ℝ₊). The parameters are unique (two-sector existence + scale invariance). Zero free choices remain.
 
@@ -170,7 +170,7 @@ The author used Claude (Anthropic) as a computational tool for mathematical veri
 
 ## References
 
-- Chung, F.R.K. Spectral Graph Theory. CBMS 92, AMS (1997).
-- Regge, T. General relativity without coordinates. Nuovo Cim. 19 (1961).
-- Schur, I. Neue Begründung der Theorie der Gruppencharaktere. Sitzungsber. Preuss. Akad. (1905).
-- Wilson, K.G. Confinement of quarks. Phys. Rev. D 10 (1974).
+Chung, F.R.K. Spectral Graph Theory. CBMS 92, AMS (1997).
+Regge, T. General relativity without coordinates. Nuovo Cim. 19 (1961).
+Schur, I. Neue Begründung der Theorie der Gruppencharaktere. Sitzungsber. Preuss. Akad. (1905).
+Wilson, K.G. Confinement of quarks. Phys. Rev. D 10 (1974).

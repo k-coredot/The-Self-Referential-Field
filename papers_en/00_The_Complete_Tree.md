@@ -4,7 +4,7 @@ Hyeokjun Kwon — April 2026
 
 ---
 
-**Abstract.** A field that reads itself admits one composition: T = C · S, the pointwise product of content and structure. This paper grows the complete tree from this root. The trunk produces an action, a spectrum, and a spinor. The main branches produce twelve results: noise gating, superadditive energy, mass gap, expansion, homogeneity, structure formation, charge conservation, quantum interference, wave-particle unity, three gauge symmetries, three generations, and a coupling hierarchy. The sub-branches produce confinement, scale-dependent coupling, massless and massive mediators, antiparticles, spin quantization, dark matter, dark energy, CP violation, baryon asymmetry, and four spacetime dimensions. Every derivation is arithmetic, a boundary condition, a topological identity, or a polynomial's parity. There is no opinion.
+**Abstract.** A field that reads itself admits one composition: T = C ⊙ S, the pointwise product of content and structure. This paper grows the complete tree from this root. The trunk produces an action, a spectrum, and a spinor. The main branches produce twelve results: noise gating, superadditive energy, mass gap, expansion, homogeneity, structure formation, charge conservation, quantum interference, wave-particle unity, three gauge symmetries, three generations, and a coupling hierarchy. The sub-branches produce confinement, scale-dependent coupling, massless and massive mediators, antiparticles, spin quantization, dark matter, dark energy, CP violation, baryon asymmetry, and four spacetime dimensions. Every derivation is arithmetic, a boundary condition, a topological identity, or a polynomial's parity. There is no opinion.
 
 ---
 
@@ -41,7 +41,7 @@ Faithful reading requires ∂f/∂C|_{C=0} to be finite (dynamics is well-posed)
 
 Therefore α = 1. By the symmetric argument applied to S, β = 1. For general analytic f, the boundary conditions and regularity together force f(C,S) = λCS. Absorbing the constant:
 
-    T = C · S
+    T = C ⊙ S
 
 No alternative exists. The proof is the evaluation of 0^{α−1}.
 
@@ -112,7 +112,7 @@ j = 1/2 is the unique representation that is regular, linear, and sign-preservin
 
 ## 6. The Gate (Branch 1)
 
-T = C · S. If C = 0, then T = 0.
+T = C ⊙ S. If C = 0, then T = 0.
 
 An edge connecting nodes with orthogonal states carries zero coupling regardless of structural weight. Noise edges (spurious connections, C ≈ 0) are silenced automatically. Under additive composition T = C + S: noise edges carry full structural weight. The gate is a property of multiplication by zero.
 
@@ -238,7 +238,7 @@ Three spin values: 1/2, 1, 2. No others arise from the representation structure.
 
 1 generator (depth 1): abelian. The mediator carries no charge, does not self-interact. No internal structure to break. The mediator remains massless. Inverse-square law. Infinite range. This is arithmetic: one generator admits no non-trivial subgroup.
 
-3 generators (depth 2): non-abelian. If geometric expansion (§8, k < k*) breaks the vacuum symmetry, and the product T = C · S couples geometry to content, then content symmetry inherits the breaking. Among 3 mediators, one would be charge-neutral and mix with the depth-1 mediator. After mixing: one massless, three massive. This is a structural prediction — the mechanism (geometric symmetry breaking inducing gauge symmetry breaking) has not been verified in simulation.
+3 generators (depth 2): non-abelian. If geometric expansion (§8, k < k*) breaks the vacuum symmetry, and the product T = C ⊙ S couples geometry to content, then content symmetry inherits the breaking. Among 3 mediators, one would be charge-neutral and mix with the depth-1 mediator. After mixing: one massless, three massive. This is a structural prediction — the mechanism (geometric symmetry breaking inducing gauge symmetry breaking) has not been verified in simulation.
 
 8 generators (depth 3): non-abelian. The ℂ³ symmetry is internal, decoupled from spacetime geometry. Geometric expansion does not break it. All 8 mediators remain massless but are confined (§18). This is structural: internal symmetry is geometrically inert.
 
@@ -289,7 +289,7 @@ Depth 1 (1 generator): abelian. The mediator carries no charge. Virtual matter-a
 ## 28. The Complete Structure
 
 ```
-                         T = C · S
+                         T = C ⊙ S
                             │
              ┌──────────────┼──────────────────┐
              │              │                  │
@@ -343,7 +343,7 @@ Every leaf matches known physics. Where independent computational confirmation e
 
 | Branch | This paper | Known physics | Independent confirmation |
 |--------|-----------|---------------|------------------------|
-| §2 | T = C · S | Einstein field equation (postulated) | — |
+| §2 | T = C ⊙ S | Einstein field equation (postulated) | — |
 | §4 | h(π) > 0 | Yang-Mills mass gap (unproven) | Lattice: m(0⁺⁺) = 1730 MeV [Morningstar & Peardon 1999] |
 | §5 | j = 1/2 (Theorem 7) | Wilson action uses χ_{1/2} | Wilson chose χ_{1/2} "for simplicity" (1974); Theorem 7 proves it is the ONLY choice |
 | §6 | C = 0 → T = 0 | No classical analog | — |

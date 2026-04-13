@@ -5,7 +5,7 @@ Hyeokjun Kwon — April 2026
 
 ---
 
-**Abstract.** We establish an axiomatic framework for self-referential dynamics on graphs and prove that the edge evolution operator is uniquely determined as T = C · S (Theorem 1), where C is the state inner product and S is the self-adjoint normalized adjacency. The proof proceeds from three axioms (local self-reference, rotational invariance, self-adjoint spectral consistency) and one physical condition (variational stability: finite, non-zero response in the weak-field limit). Variational stability excludes all alternatives T = f(C, S) beyond the bilinear case f(C,S) = CS, including power-law forms C^α S^β with (α,β) ≠ (1,1) and non-polynomial compositions such as exp(CS) or C·log(S). We prove that the Hadamard product is the unique local composition satisfying the axioms (Lemma 1), that the discrete gauge-geometry equation of motion follows from δS/δl = 0 (Theorem 2), and that spectral convergence survives edge-weight perturbation (Theorem 3). The random walk normalization D⁻¹A is excluded by the self-adjointness requirement.
+**Abstract.** We establish an axiomatic framework for self-referential dynamics on graphs and prove that the edge evolution operator is uniquely determined as T = C ⊙ S (Theorem 1), where C is the state inner product and S is the self-adjoint normalized adjacency. The proof proceeds from three axioms (local self-reference, rotational invariance, self-adjoint spectral consistency) and one physical condition (variational stability: finite, non-zero response in the weak-field limit). Variational stability excludes all alternatives T = f(C, S) beyond the bilinear case f(C,S) = CS, including power-law forms C^α S^β with (α,β) ≠ (1,1) and non-polynomial compositions such as exp(CS) or C·log(S). We prove that the Hadamard product is the unique local composition satisfying the axioms (Lemma 1), that the discrete gauge-geometry equation of motion follows from δS/δl = 0 (Theorem 2), and that spectral convergence survives edge-weight perturbation (Theorem 3). The random walk normalization D⁻¹A is excluded by the self-adjointness requirement.
 
 ---
 
@@ -77,7 +77,7 @@ The derivative f'(C) = α C^{α−1}. Evaluate at C = 0 (orthogonal node states 
 
 (c) If α = 1: f'(0) = 1. At C = 0, the gating property holds (T = 0, noise immunity), but f'(0) = 1 means the operator has full first-order sensitivity — it detects infinitesimal content changes at every content level, including orthogonality. The self-referential loop is intact.
 
-Therefore α = 1 is the unique power-law exponent. By symmetric argument applied to the S-dependence (with the same regularity and non-degeneracy conditions on the geometric response), β = 1. Hence T = C · S for all power-law forms. □(Case 1)
+Therefore α = 1 is the unique power-law exponent. By symmetric argument applied to the S-dependence (with the same regularity and non-degeneracy conditions on the geometric response), β = 1. Hence T = C ⊙ S for all power-law forms. □(Case 1)
 
 **Case 2: General analytic f(C).**
 
@@ -95,7 +95,7 @@ Consider f(C) = C + εC³: f'(C) = 1 + 3εC². For ε > 0, f'(C) > 1 for all C �
 
 This argument has a parameter-theoretic reinforcement: Axioms 1–3 contain no continuously tunable parameters. An operator f(C) = C + εC³ introduces ε with no axiomatic origin. The unique parameter-free content response is f(C) = C.
 
-With f(C) = λC established, absorbing λ: T = C · S. □(Case 2)
+With f(C) = λC established, absorbing λ: T = C ⊙ S. □(Case 2)
 
 *Remark.* Case 1 (power laws) is a mathematical theorem requiring no additional conditions. Case 2 (general analytic) uses sign preservation (a dynamical argument from fixed-point existence) and gain uniformity. Both are derived from the self-referential cycle, not imposed. Theorem 10 of Paper H (Math) further shows that all physical conclusions are continuous in ε, so even if small nonlinear corrections were permitted, the physics would be unchanged.
 
@@ -110,7 +110,7 @@ The surviving terms are: f(C, S) = a_{00} + a_{10}C + a_{01}S + a_{11}CS.
 
 S = −Nβ Σ_P w_P cos Θ_P + κ Σ_e (w_e − 1)²
 
-where w_e are edge weights (geometric degrees of freedom), w_P = (∏_{e∈∂P} w_e)^{1/2} is the plaquette area measure, and Θ_P is the plaquette angle. This action couples C (through cos Θ_P) and S (through w_P) multiplicatively — a direct consequence of T = C · S. The Euler-Lagrange equation δS/δw_e = 0 (Theorem 2) yields geometric deformation proportional to gauge energy at each edge. Optimizing Φ (which determines cos Θ_P) changes the energy landscape for w, and vice versa. Neither reaches its extremum independently. □
+where w_e are edge weights (geometric degrees of freedom), w_P = (∏_{e∈∂P} w_e)^{1/2} is the plaquette area measure, and Θ_P is the plaquette angle. This action couples C (through cos Θ_P) and S (through w_P) multiplicatively — a direct consequence of T = C ⊙ S. The Euler-Lagrange equation δS/δw_e = 0 (Theorem 2) yields geometric deformation proportional to gauge energy at each edge. Optimizing Φ (which determines cos Θ_P) changes the energy landscape for w, and vice versa. Neither reaches its extremum independently. □
 
 
 ## 5. The Discrete Gauge-Geometry Equation of Motion
@@ -144,7 +144,7 @@ This is the discrete gauge-geometry equation of motion: elastic resistance (left
 
 *Consequence.* The theory is the same at every scale. Coarse-graining defines effective couplings beta'(beta, kappa) and kappa'(beta, kappa). The Hadamard structure forces these to be coupled: beta' depends on kappa (geometric fluctuations modify gauge coupling) and kappa' depends on beta (gauge fluctuations modify elastic stiffness). The full development is in the companion paper (Paper K).
 
-**Theorem 5 (Monotonic Decrease of Asymmetry).** For overdamped dynamics dw_e/dt = -dS/dw_e on the T = C . S lattice with kappa > 0:
+**Theorem 5 (Monotonic Decrease of Asymmetry).** For overdamped dynamics dw_e/dt = -dS/dw_e on the T = C ⊙ S lattice with kappa > 0:
 
 dS/dt = -sum_e (dS/dw_e)^2 <= 0
 
@@ -178,14 +178,14 @@ C = cosθ = Re(e^{iθ}) is formally identical to the U(1) gauge link variable as
 
 S converges to Laplace-Beltrami (Theorem 3). In Regge calculus, edge lengths encode the metric [Regge 1961].
 
-The Hadamard coupling T = C · S (Theorem 1) couples gauge content to geometry at each edge. The discrete gauge-geometry equation of motion (Theorem 2) shows this coupling produces geometric deformation proportional to gauge energy upon variation. The dynamical verification (Monte Carlo, 42 measurements across 7 configurations in 2D–4D, U(1) and SU(2)) is in the companion paper [Kwon 2026b].
+The Hadamard coupling T = C ⊙ S (Theorem 1) couples gauge content to geometry at each edge. The discrete gauge-geometry equation of motion (Theorem 2) shows this coupling produces geometric deformation proportional to gauge energy upon variation. The dynamical verification (Monte Carlo, 42 measurements across 7 configurations in 2D–4D, U(1) and SU(2)) is in the companion paper [Kwon 2026b].
 
 
 ## 8. Discussion
 
 Five results by mathematical proof:
 
-(1) T = C · S is the unique variationally stable edge operator under the axioms (Theorem 1), with uniqueness extending to all analytic compositions, not only power-law forms. The exclusion of the C-only term (a₁₀ = 0) uses spectral consistency (Axiom 3); the exclusion of the S-only term (a₀₁ = 0) uses self-referentiality (Definition §0). Both are necessary: uniqueness requires all three axioms, the self-referential definition, and variational stability working together.
+(1) T = C ⊙ S is the unique variationally stable edge operator under the axioms (Theorem 1), with uniqueness extending to all analytic compositions, not only power-law forms. The exclusion of the C-only term (a₁₀ = 0) uses spectral consistency (Axiom 3); the exclusion of the S-only term (a₀₁ = 0) uses self-referentiality (Definition §0). Both are necessary: uniqueness requires all three axioms, the self-referential definition, and variational stability working together.
 
 (2) The Hadamard product is the unique bilinear local composition (Lemma 1), and bilinearity itself is a consequence of variational stability rather than an independent assumption (Proposition 1, Remark).
 
@@ -197,9 +197,9 @@ Five results by mathematical proof:
 
 (6) The path integral measure on edge weights is uniquely dw/w (Theorem 6): the Haar measure of the multiplicative group ℝ₊, consistent with the Misner measure in Regge calculus. Combined with the compact Haar measure on the gauge group, the partition function Z = ∫ [dU] ∏(dw/w) exp(−S) is fully specified with no free choices in the definition of the theory.
 
-**What follows from these five results.** The uniqueness of T = C · S (Theorem 1) implies the uniqueness of the Hadamard-coupled action (Corollary 1). From this single action, the companion papers derive: gauge-geometry correlation r > 0 across all couplings and dimensions [B]; multiplicative noise gating in graph neural networks [C]; superadditive energy E ~ N^γ when multiple fields share geometry [D]; coherent force alignment from shared plaquette structure [F]; expansion, homogeneity, and structure formation as necessary consequences of the action's k-dependent structure [G]; and a two-sector spectral decomposition yielding both massive particles (short wavelength) and cosmological dynamics (long wavelength) from the same Hessian [H].
+**What follows from these five results.** The uniqueness of T = C ⊙ S (Theorem 1) implies the uniqueness of the Hadamard-coupled action (Corollary 1). From this single action, the companion papers derive: gauge-geometry correlation r > 0 across all couplings and dimensions [B]; multiplicative noise gating in graph neural networks [C]; superadditive energy E ~ N^γ when multiple fields share geometry [D]; coherent force alignment from shared plaquette structure [F]; expansion, homogeneity, and structure formation as necessary consequences of the action's k-dependent structure [G]; and a two-sector spectral decomposition yielding both massive particles (short wavelength) and cosmological dynamics (long wavelength) from the same Hessian [H].
 
-All of these consequences are forced: given the three axioms and variational stability, the operator is T = C · S, the action is determined, and the listed phenomena follow. The chain from axiom to cosmology and matter passes through a single bottleneck — the Hadamard product — and there are no alternatives.
+All of these consequences are forced: given the three axioms and variational stability, the operator is T = C ⊙ S, the action is determined, and the listed phenomena follow. The chain from axiom to cosmology and matter passes through a single bottleneck — the Hadamard product — and there are no alternatives.
 
 **Scope.** The framework operates in the linearized Regge regime (Theorem 2 scope note). Extensions to full 3+1D gravity, non-abelian gauge groups beyond SU(2), and topology-changing dynamics remain open. The plaquette weight w_P = (∏ w_e)^{1/2} is the area measure for 2D plaquettes; the correct generalization to higher dimensions requires the Regge-calculus area formula, which preserves the multiplicative structure but changes the exponent.
 

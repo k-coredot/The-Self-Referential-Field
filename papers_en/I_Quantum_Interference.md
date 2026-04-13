@@ -4,7 +4,7 @@ Hyeokjun Kwon — April 2026
 
 ---
 
-**Abstract.** The axioms of self-referential field dynamics (Kwon 2026a) force the fundamental representation j = 1/2 of non-abelian gauge groups (Kwon 2026h, Theorem 7). The node states are then spinors ψ ∈ ℂ². This has a consequence that was not anticipated: the content similarity C = ⟨ψ_a, ψ_b⟩ is complex-valued, forcing the operator T = C · S, the action, and the Gibbs weight into the complex domain. The complex Gibbs weight exp(−S) = exp(−Re S) · exp(−i Im S) produces interference: configurations with aligned phases reinforce, those with opposing phases cancel. The complex Hessian h(k) = h_R + ih_I gives excitations that simultaneously decay (localized, particle-like) and oscillate (propagating, wave-like). Both quantum interference and wave-particle unity are derived, not postulated. The logical chain is: self-reference → faithful reading → spinor (Theorem 7) → ℂ² → complex inner product → complex action → interference → wave-particle unity. Every step is forced.
+**Abstract.** The axioms of self-referential field dynamics (Kwon 2026a) force the fundamental representation j = 1/2 of non-abelian gauge groups (Kwon 2026h, Theorem 7). The node states are then spinors ψ ∈ ℂ². This has a consequence that was not anticipated: the content similarity C = ⟨ψ_a, ψ_b⟩ is complex-valued, forcing the operator T = C ⊙ S, the action, and the Gibbs weight into the complex domain. The complex Gibbs weight exp(−S) = exp(−Re S) · exp(−i Im S) produces interference: configurations with aligned phases reinforce, those with opposing phases cancel. The complex Hessian h(k) = h_R + ih_I gives excitations that simultaneously decay (localized, particle-like) and oscillate (propagating, wave-like). Both quantum interference and wave-particle unity are derived, not postulated. The logical chain is: self-reference → faithful reading → spinor (Theorem 7) → ℂ² → complex inner product → complex action → interference → wave-particle unity. Every step is forced.
 
 ---
 
@@ -24,7 +24,7 @@ This is complex. The real part Re(C) measures alignment. The imaginary part Im(C
 
 If the operator reads only Re(C), two configurations differing only in Im(C) produce the same T. The reading loses information. The field has changed but the operator does not notice. This violates faithful self-reference.
 
-Therefore T = C · S ∈ ℂ. The operator is complex-valued.
+Therefore T = C ⊙ S ∈ ℂ. The operator is complex-valued.
 
 ## 3. Complex Action
 
@@ -106,7 +106,7 @@ What is determined: the existence of interference, the existence of wave-particl
 
 ## 8. Connection to the Series
 
-Paper A proves T = C · S. Paper B verifies it. Paper H (Math) proves j = 1/2 (Theorem 7). This paper develops the consequence: j = 1/2 forces ℂ, which forces interference.
+Paper A proves T = C ⊙ S. Paper B verifies it. Paper H (Math) proves j = 1/2 (Theorem 7). This paper develops the consequence: j = 1/2 forces ℂ, which forces interference.
 
 The transition from Papers A–G (real content, classical statistics) to Papers H–I (complex content, quantum statistics) is not a change of framework. It is the same framework applied to the non-abelian case. The axioms are identical. The representation changes because the gauge group changes. Everything else follows.
 

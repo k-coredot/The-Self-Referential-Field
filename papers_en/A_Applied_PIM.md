@@ -69,7 +69,7 @@ For a social network with 10⁶ nodes and average degree 100: matrix multiplicat
 
 The variational stability condition (Paper A, Theorem 1) requires α = β = 1 in T = C^α S^β. This excludes:
 - Quadratic compositions T = C² · S (α = 2): non-uniform sensitivity
-- Activation-in-memory T = σ(C · S) where σ is nonlinear: violates linearity
+- Activation-in-memory T = σ(C ⊙ S) where σ is nonlinear: violates linearity
 - Power-law compositions T = C^α S^β with α ≠ 1 or β ≠ 1: excluded by ∂²T/∂C² = 0
 
 In hardware terms: the junction should compute the **linear** product V × G, not V² × G or tanh(V × G). Nonlinear activation functions, if needed, should be applied **after** the in-memory Hadamard computation, not during it.

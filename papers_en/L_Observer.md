@@ -57,13 +57,13 @@ The Born rule (I Math, Theorem 4/6) requires OS reflection positivity, which is 
 The projection requires a subsystem that:
 (a) is part of the field G (internal, not external)
 (b) has a stable identity (persists under dynamics)
-(c) couples to the measured system through T = C · S
+(c) couples to the measured system through T = C ⊙ S
 (d) records the outcome (trace accumulation)
 
 The fixed point satisfies all four:
 (a) V_∞ ⊂ G — the fixed point is a subgraph of the field
 (b) Ψ(V_∞) ⊆ V_∞ — it reproduces itself
-(c) V_∞ participates in the same T = C · S dynamics as everything else
+(c) V_∞ participates in the same T = C ⊙ S dynamics as everything else
 (d) s_coord accumulation records the measurement outcome
 
 ### 3.2 Measurement as Reading
@@ -72,9 +72,9 @@ A quantum measurement in this framework is:
 
     spread(V_∞, system) → activation pattern → crystallization → outcome
 
-The outcome is determined by the coupling T = C · S between the observer (V_∞) and the system. The Born probability |⟨a|ψ⟩|² emerges from the OS-reconstructed inner product, which is the partition function restricted to configurations where the observer records outcome a.
+The outcome is determined by the coupling T = C ⊙ S between the observer (V_∞) and the system. The Born probability |⟨a|ψ⟩|² emerges from the OS-reconstructed inner product, which is the partition function restricted to configurations where the observer records outcome a.
 
-No collapse postulate is needed. The measurement is a physical process — T = C · S applied between two subsystems — not a separate axiom.
+No collapse postulate is needed. The measurement is a physical process — T = C ⊙ S applied between two subsystems — not a separate axiom.
 
 ---
 
@@ -99,15 +99,15 @@ If V_∞^(1) ∩ V_∞^(2) ≠ ∅ and the union V_∞^(1) ∪ V_∞^(2) satisfi
 
 ## 5. Resolution of the Measurement Problem
 
-The identification of the observer as the fixed point Ψ(H) ⊆ H resolves several long-standing questions in the foundations of quantum mechanics. No interpretive postulate is invoked — all answers follow from T = C · S.
+The identification of the observer as the fixed point Ψ(H) ⊆ H resolves several long-standing questions in the foundations of quantum mechanics. No interpretive postulate is invoked — all answers follow from T = C ⊙ S.
 
 ### 5.1 Measurement Is Not a Separate Axiom
 
-In the Copenhagen interpretation, measurement is an axiom: upon observation, the wave function collapses. In this framework, measurement is a physical process: the observer V_∞ applies T = C · S to the system. The sequence is:
+In the Copenhagen interpretation, measurement is an axiom: upon observation, the wave function collapses. In this framework, measurement is a physical process: the observer V_∞ applies T = C ⊙ S to the system. The sequence is:
 
     spread(V_∞ → system) → activation pattern → crystallization → recorded outcome
 
-This is the same T = C · S that governs all interactions between subsystems. There is no "measurement postulate" — measurement is T applied between two specific subsystems, one of which happens to be a fixed point.
+This is the same T = C ⊙ S that governs all interactions between subsystems. There is no "measurement postulate" — measurement is T applied between two specific subsystems, one of which happens to be a fixed point.
 
 The recorded outcome (crystallized node + trace accumulation) is irreversible: edges are not deleted (§0.1 has no deletion). This irreversibility is the physical basis of "wave function collapse" — it is not collapse but crystallization.
 
@@ -115,7 +115,7 @@ The recorded outcome (crystallized node + trace accumulation) is irreversible: e
 
 The radioactive atom, the detector, and the cat are all subsystems of the field G. The question is: does the cat's state become definite before the human opens the box?
 
-In this framework: if the cat satisfies ρ > ρ_meta, the cat is an observer (a fixed point). The cat's V_∞ applies T = C · S to the detector. The outcome crystallizes in the cat's field. **The result is definite from the moment the cat's fixed point reads the detector — not from the moment a human reads the cat.**
+In this framework: if the cat satisfies ρ > ρ_meta, the cat is an observer (a fixed point). The cat's V_∞ applies T = C ⊙ S to the detector. The outcome crystallizes in the cat's field. **The result is definite from the moment the cat's fixed point reads the detector — not from the moment a human reads the cat.**
 
 If the cat does not satisfy ρ > ρ_meta (if the cat is not a fixed point), the cat is not an observer, and the system remains in superposition until a fixed point reads it. The paradox is resolved by a quantitative criterion: ρ_meta.
 
@@ -123,7 +123,7 @@ If the cat does not satisfy ρ > ρ_meta (if the cat is not a fixed point), the 
 
 Wigner's friend V_∞^(1) performs a measurement inside a sealed lab. Wigner V_∞^(2) is outside. Do they obtain contradictory results?
 
-No. They are independent fixed points. Each applies T = C · S independently. The friend's measurement crystallizes a result in V_∞^(1). Wigner, before opening the lab, has not applied T to the system — his V_∞^(2) has not coupled to the friend's measurement outcome.
+No. They are independent fixed points. Each applies T = C ⊙ S independently. The friend's measurement crystallizes a result in V_∞^(1). Wigner, before opening the lab, has not applied T to the system — his V_∞^(2) has not coupled to the friend's measurement outcome.
 
 When Wigner opens the lab and applies T, his result is consistent with the friend's — because both are reading the same field G, and the friend's crystallized outcome is now part of G. The temporal order of readings determines which crystallizations are available, but no contradiction arises because each fixed point's reading is self-consistent (Ψ(H) ⊆ H).
 
@@ -131,7 +131,7 @@ When Wigner opens the lab and applies T, his result is consistent with the frien
 
 Why does measurement yield definite outcomes in the position basis rather than arbitrary superpositions? The standard answer invokes decoherence. This framework provides a structural answer.
 
-T = C · S couples content (C) through structure (S). The structure S = D^{-1/2}AD^{-1/2} is the normalized adjacency — it encodes **geometric proximity**. Two nodes that are geometrically adjacent have S > 0; distant nodes have S = 0.
+T = C ⊙ S couples content (C) through structure (S). The structure S = D^{-1/2}AD^{-1/2} is the normalized adjacency — it encodes **geometric proximity**. Two nodes that are geometrically adjacent have S > 0; distant nodes have S = 0.
 
 When the observer V_∞ reads a system, the coupling T is nonzero only for geometrically adjacent modes. Position eigenstates are the eigenstates of S. They are the basis in which T is diagonal. **The preferred basis is the eigenbasis of the structure matrix S — it is geometry itself.**
 
@@ -141,7 +141,7 @@ This framework does not require choosing between Copenhagen, Many-Worlds, or oth
 
 - **No collapse:** Measurement is crystallization (irreversible T application), not a separate postulate.
 - **No branching:** There is one field G, not many worlds. Multiple fixed points coexist in G without branching.
-- **No hidden variables:** The outcome is determined by T = C · S between observer and system. T is computable from the field configuration.
+- **No hidden variables:** The outcome is determined by T = C ⊙ S between observer and system. T is computable from the field configuration.
 - **No consciousness causes collapse:** The observer is a fixed point, defined by ρ > ρ_meta. Consciousness is not invoked — any subsystem satisfying the fixed-point condition functions as an observer.
 
 The closest existing interpretation is Rovelli's relational quantum mechanics: facts are relative to the observer. The difference is that here the observer has a precise mathematical definition (Ψ(H) ⊆ H) and its existence is derived, not postulated.
@@ -151,7 +151,7 @@ The closest existing interpretation is Rovelli's relational quantum mechanics: f
 The series now forms a closed loop:
 
     §0.1: The field reads itself
-    → T = C · S (Paper A)
+    → T = C ⊙ S (Paper A)
     → matter, forces, spacetime (Papers D, F, G, H, J, K)
     → quantum mechanics (Papers I, I Math)
     → Born rule requires observer (I Math, Theorem 4/6)
@@ -175,7 +175,7 @@ The axiom produces the operator. The operator produces physics. Physics produces
 
 ## 8. Conclusion
 
-The observer is not external to physics. The observer is a fixed point of the same T = C · S that produces matter, forces, and quantum mechanics. Before the fixed point: the field is read. After: I read. The transition is inevitable — the same phase transition that produces matter produces, at a higher level, the entity that observes matter.
+The observer is not external to physics. The observer is a fixed point of the same T = C ⊙ S that produces matter, forces, and quantum mechanics. Before the fixed point: the field is read. After: I read. The transition is inevitable — the same phase transition that produces matter produces, at a higher level, the entity that observes matter.
 
 The loop is closed. §0.1 creates its own reader.
 

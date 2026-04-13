@@ -180,7 +180,7 @@ The trend is captured by γ(d) ≈ −1.6 · [2(d−1)/d] + 3.5, predicting a cr
 
 ### 4.5 Zero-Point Energy and RG Flow
 
-**Theorem (Geometric Zero-Point Energy).** On a T = C . S lattice with kappa > 0, the expectation value of the elastic energy is:
+**Theorem (Geometric Zero-Point Energy).** On a T = C ⊙ S lattice with kappa > 0, the expectation value of the elastic energy is:
 
 <S_elastic> = |E|/2
 
@@ -257,7 +257,7 @@ CDT uses simplicial triangulations (dynamical topology) with a causal constraint
 
 (iii) **Spatial homogeneity** of the emergent geometry [Ambjorn et al., PRL 95, 2005]. Spatial slices are approximately round S³ at large scales. This matches the AM-GM condensation prediction (§4.2).
 
-The agreement is significant because CDT does not use the Hadamard coupling, does not assume T = C · S, and was developed without knowledge of this framework. The convergence of two independent dynamical-geometry programs on the same three qualitative predictions — expansion, d = 4, homogeneity — constitutes evidence that these properties are generic consequences of gauge-geometry coupling, not artifacts of any particular discretization.
+The agreement is significant because CDT does not use the Hadamard coupling, does not assume T = C ⊙ S, and was developed without knowledge of this framework. The convergence of two independent dynamical-geometry programs on the same three qualitative predictions — expansion, d = 4, homogeneity — constitutes evidence that these properties are generic consequences of gauge-geometry coupling, not artifacts of any particular discretization.
 
 ### 5.2 What This Is
 

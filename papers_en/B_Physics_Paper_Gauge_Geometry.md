@@ -5,7 +5,7 @@ Hyeokjun Kwon — April 2026
 
 ---
 
-**Abstract.** We prove that any system in which a field reads itself on a graph necessarily produces an edge operator T = C·S coupling gauge content (C) to geometric structure (S). This Hadamard product follows from three axioms and variational stability (Theorem 1). The discrete gauge-geometry equation of motion follows from δS/δl = 0 (Theorem 2). We verify universality by ab initio Monte Carlo simulation across seven configurations: 2D U(1), 2D SU(2), 3D U(1), 4D U(1), and 4D SU(2) at three lattice sizes (L = 4, 6, 8). The gauge-geometry correlation r(β) is non-zero in all 42 measurements (minimum significance: 13.6σ). The non-monotonic r(β) profile is confirmed across dimensions and gauge groups. Finite-size scaling of 4D SU(2) shows the peak correlation r(β = 1.0) = 0.343 ± 0.002 is stable across L = 4–8, confirming a bulk effect. These results establish that gauge-gravity coupling is forced by the mathematical structure of self-referential field dynamics.
+**Abstract.** We prove that any system in which a field reads itself on a graph necessarily produces an edge operator T = C⊙S coupling gauge content (C) to geometric structure (S). This Hadamard product follows from three axioms and variational stability (Theorem 1). The discrete gauge-geometry equation of motion follows from δS/δl = 0 (Theorem 2). We verify universality by ab initio Monte Carlo simulation across seven configurations: 2D U(1), 2D SU(2), 3D U(1), 4D U(1), and 4D SU(2) at three lattice sizes (L = 4, 6, 8). The gauge-geometry correlation r(β) is non-zero in all 42 measurements (minimum significance: 13.6σ). The non-monotonic r(β) profile is confirmed across dimensions and gauge groups. Finite-size scaling of 4D SU(2) shows the peak correlation r(β = 1.0) = 0.343 ± 0.002 is stable across L = 4–8, confirming a bulk effect. These results establish that gauge-gravity coupling is forced by the mathematical structure of self-referential field dynamics.
 
 ---
 
@@ -89,7 +89,7 @@ For 2D U(1), the mean-field correlation is r_MF(β) = βf′(β)/(2κσ_c), wher
 
 ## 7. Implications
 
-**(i) Mathematical necessity.** T = C·S is the unique variationally stable, self-adjoint, local, rotationally invariant edge operator (Theorem 1). No postulates beyond the three axioms and variational stability are required.
+**(i) Mathematical necessity.** T = C⊙S is the unique variationally stable, self-adjoint, local, rotationally invariant edge operator (Theorem 1). No postulates beyond the three axioms and variational stability are required.
 
 **(ii) Physical identification.** C is the standard lattice gauge link variable (Wilson 1974). S converges to the Laplace-Beltrami operator. In Regge calculus, edge lengths encode the metric (Regge 1961). These are established identifications.
 
@@ -107,9 +107,9 @@ All results are in the linearized Regge (weak-field) regime. Extensions: SU(3) i
 
 ## 9. Discussion
 
-**On the meaning of "coupling."** Throughout this paper, "gauge-geometry coupling" refers to the Hadamard inseparability of C and S in the product T = C·S. The correlation r(β) > 0 is not evidence that two independent entities interact — it is the manifestation of a single entity T projected onto two measurement channels (plaquette weight and plaquette angle). Just as measuring the x and y projections of a vector always yields a correlation unless the vector is axis-aligned, measuring the C and S projections of T always yields r > 0 unless the Hadamard structure is broken (κ = ∞, the null test). The 42 measurements across 7 configurations confirm that T = C⊙S is one inseparable field.
+**On the meaning of "coupling."** Throughout this paper, "gauge-geometry coupling" refers to the Hadamard inseparability of C and S in the product T = C⊙S. The correlation r(β) > 0 is not evidence that two independent entities interact — it is the manifestation of a single entity T projected onto two measurement channels (plaquette weight and plaquette angle). Just as measuring the x and y projections of a vector always yields a correlation unless the vector is axis-aligned, measuring the C and S projections of T always yields r > 0 unless the Hadamard structure is broken (κ = ∞, the null test). The 42 measurements across 7 configurations confirm that T = C⊙S is one inseparable field.
 
-This paper establishes: (1) T = C·S is the unique variationally stable edge operator (Theorem 1). (2) Variation yields the discrete gauge-geometry equation of motion (Theorem 2). (3) The gauge-geometry correlation is non-zero across two gauge groups, four configurations (2D, 3D, 4D), and three lattice sizes for 4D SU(2) (42 measurements, all >13σ). (4) Finite-size scaling confirms the correlation is a bulk effect.
+This paper establishes: (1) T = C⊙S is the unique variationally stable edge operator (Theorem 1). (2) Variation yields the discrete gauge-geometry equation of motion (Theorem 2). (3) The gauge-geometry correlation is non-zero across two gauge groups, four configurations (2D, 3D, 4D), and three lattice sizes for 4D SU(2) (42 measurements, all >13σ). (4) Finite-size scaling confirms the correlation is a bulk effect.
 
 The central claim is falsifiable: a measurement of r = 0 at any coupling in any gauge group or dimension would refute it. No such measurement has been found across 42 independent tests.
 

@@ -5,13 +5,13 @@ Hyeokjun Kwon — April 2026
 
 ---
 
-**Abstract.** Graph Neural Networks propagate information by combining node features (content) with graph topology (structure), yet no principled method exists for determining *how* content and structure should be combined. We prove that the Hadamard (elementwise) product T = C ⊙ S—where C is the pairwise state inner product and S is the self-adjoint normalized adjacency D⁻¹/²AD⁻¹/²—is the unique edge operator satisfying locality, rotational invariance, self-adjoint spectral consistency, and variational stability. Additive coupling (C + S), matrix multiplication, tensor products, and all nonlinear alternatives C^α S^β with (α,β) ≠ (1,1) are excluded by these axioms. We validate the theory on Cora, CiteSeer, and PubMed using parameter-free field dynamics: under noise injection (0–100% spurious edges), multiplicative coupling outperforms additive coupling by up to 15.3 percentage points (Cora, 25% noise) in vertex kNN accuracy, with the advantage *increasing* with noise level. Analysis of per-edge coupling weights reveals the mechanism: multiplicative coupling produces a natural gating effect where noise edges receive near-zero weight (C ≈ 0 ⟹ C·S ≈ 0), while additive coupling amplifies noise (C ≈ 0 but C+S ≈ S > 0). These results establish that the GNN propagation operator is not a design choice but a mathematical necessity, and that its multiplicative structure provides automatic noise suppression without learned parameters.
+**Abstract.** Graph Neural Networks propagate information by combining node features (content) with graph topology (structure), yet no principled method exists for determining *how* content and structure should be combined. We prove that the Hadamard (elementwise) product T = C ⊙ S—where C is the pairwise state inner product and S is the self-adjoint normalized adjacency D⁻¹/²AD⁻¹/²—is the unique edge operator satisfying locality, rotational invariance, self-adjoint spectral consistency, and variational stability. Additive coupling (C + S), matrix multiplication, tensor products, and all nonlinear alternatives C^α S^β with (α,β) ≠ (1,1) are excluded by these axioms. We validate the theory on Cora, CiteSeer, and PubMed using parameter-free field dynamics: under noise injection (0–100% spurious edges), multiplicative coupling outperforms additive coupling by up to 15.3 percentage points (Cora, 25% noise) in vertex kNN accuracy, with the advantage *increasing* with noise level. Analysis of per-edge coupling weights reveals the mechanism: multiplicative coupling produces a natural gating effect where noise edges receive near-zero weight (C ≈ 0 ⟹ C⊙S ≈ 0), while additive coupling amplifies noise (C ≈ 0 but C+S ≈ S > 0). These results establish that the GNN propagation operator is not a design choice but a mathematical necessity, and that its multiplicative structure provides automatic noise suppression without learned parameters.
 
 ---
 
 ## 1. Introduction
 
-The theoretical contribution of this paper is one line: if C = 0, then C · S = 0. Everything that follows — noise immunity, adversarial defense, anomaly detection — is a consequence of multiplication by zero. The remainder of this paper validates this arithmetic on standard benchmarks.
+The theoretical contribution of this paper is one line: if C = 0, then C ⊙ S = 0. Everything that follows — noise immunity, adversarial defense, anomaly detection — is a consequence of multiplication by zero. The remainder of this paper validates this arithmetic on standard benchmarks.
 
 The core operation of any Graph Neural Network is message passing: aggregating information from neighboring nodes through the graph structure. Every GNN architecture makes a choice—explicitly or implicitly—about how to combine two fundamentally different sources of information:
 
@@ -68,7 +68,7 @@ We derive the unique graph propagation operator from first principles. The compa
 
 *Proof.* Pointwise dependence means (A • B)_{ab} = f(A_{ab}, B_{ab}) for some function f: ℝ × ℝ → ℝ. Bilinearity of • requires: f(αx₁ + x₂, y) = αf(x₁, y) + f(x₂, y) and f(x, αy₁ + y₂) = αf(x, y₁) + f(x, y₂). Any bilinear function f: ℝ × ℝ → ℝ has the form f(x,y) = λxy. Therefore (A • B)_{ab} = λ · A_{ab} · B_{ab}, i.e., • = λ(⊙). □
 
-*What this excludes.* Matrix multiplication C·S (where (CS)_{ab} = Σ_k C_{ak}S_{kb}) violates pointwise dependence: each output element depends on an entire row of C and column of S. Tensor products C ⊗ S produce an object in M_E ⊗ M_E, not M_E. Direct sums C ⊕ S produce pairs, not scalars.
+*What this excludes.* Matrix multiplication C⊙S (where (CS)_{ab} = Σ_k C_{ak}S_{kb}) violates pointwise dependence: each output element depends on an entire row of C and column of S. Tensor products C ⊗ S produce an object in M_E ⊗ M_E, not M_E. Direct sums C ⊕ S produce pairs, not scalars.
 
 *GNN interpretation.* The Hadamard product is the unique bilinear operation where each output element depends only on the corresponding input elements—precisely the condition required for processing-in-memory and O(|E|) computation.
 
@@ -91,7 +91,7 @@ The second derivative vanishes identically iff α(α−1) = 0, giving α = 0 or 
 
 By the same argument applied to S (∂²T/∂S² = β(β−1)C^α S^{β−2} = 0), we obtain β = 0 or β = 1. β = 0 yields T = C, independent of graph structure, again contradicting Axiom 1's requirement that T_{ab} depend on graph structure in the neighborhood of (a,b). Therefore β = 1.
 
-Hence T = C · S. □
+Hence T = C ⊙ S. □
 
 
 ## 3. Implications for GNN Design
