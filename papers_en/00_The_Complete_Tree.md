@@ -282,62 +282,129 @@ Depth 3 (8 generators): non-abelian. The mediator carries charge and self-intera
 
 Depth 1 (1 generator): abelian. The mediator carries no charge. Virtual matter-antimatter pairs screen the coupling at short distances, strengthening it. This is the standard behavior of abelian gauge theory.
 
+## 28. Zero-Point Energy and Intelligence
+
+**Zero-point energy.** On a T = C ⊙ S lattice with κ > 0, the expectation value of the elastic energy satisfies ⟨S_elastic⟩ = |E|/2 at equilibrium — half a quantum per edge. This is the geometric zero-point energy, derived from the equipartition theorem applied to the quadratic elastic action. It is a bulk thermodynamic quantity independent of β.
+
+**Intelligence.** When the excitation density exceeds a threshold ρ_meta, iterated crystallization — the repeated cycle of reading, deforming, and re-reading — produces a nontrivial fixed point Ψ(H) ⊆ H: a self-reading structure that reproduces itself while continuing to evolve (Paper G §4.6). The existence follows from the intermediate value theorem (contraction-regeneration balance) and the Brouwer fixed point theorem (continuity on a compact convex set). This is what we call intelligence.
+
+## 29. Quantum Structure: OS Positivity, Born Rule, Spin-Statistics
+
+For fixed geometry (w = 1), the Hadamard action reduces to the Wilson action, for which Osterwalder-Schrader reflection positivity is proven [Osterwalder & Seiler 1978]. This yields a Hilbert space, unitary time evolution, and the Born rule (Paper I Math, Theorem 4).
+
+For dynamical geometry (w ≠ 1): edge weights satisfy w_e > 0 (lengths are positive), ensuring positive plaquette coupling β_P > 0 for all plaquettes — including those crossing the reflection plane. The Osterwalder-Seiler proof applies plaquette by plaquette. OS reflection positivity holds for the full dynamical-geometry Hadamard action (Theorem 6).
+
+With OS established unconditionally: (i) **Born rule** (Theorem 6): the partition function restricted to configurations where the observer records outcome a gives |⟨a|ψ⟩|². No longer conditional on fixed geometry. (ii) **Spin-statistics** (Theorem 7): excitations with half-integer spin obey Fermi-Dirac statistics. Anti-commutation follows from OS positivity plus the spinor representation. Unconditional.
+
+## 30. Coupled Renormalization Group Flow
+
+The axioms defining T = C ⊙ S contain no reference to scale. The operator structure is preserved under coarse-graining: the block operator is T' = C' ⊙ S' (Scale Invariance Theorem, Paper K).
+
+The multiplicative coupling w_P × cos Θ_P forces a coupled two-dimensional RG flow (Coupled RG Corollary). Two independently established contributions compete:
+
+(i) **Universal geometric suppression** (δβ_geom < 0): AM-GM inequality applied to the plaquette weight ⟨w_P⟩ ≤ 1. Gauge-group independent.
+
+(ii) **Non-abelian gauge self-coupling** (δβ_gauge > 0): proportional to the quadratic Casimir C₂(adj). Standard lattice gauge theory result.
+
+Their competition determines the effective couplings: g₃ > g₂ > g₁ (Hierarchy Theorem). This replaces §17's counting argument with a dynamical derivation from AM-GM suppression (universal floor) plus Casimir compensation (group-dependent).
+
+Additionally, gauge fluctuations universally stiffen geometry (δκ > 0): G_eff ~ 1/(κ₀ + N_total × δκ). With N_total = 12 generators, gravity is suppressed. No extra dimensions or fine-tuning required.
+
+The fixed-point condition β* = β*(κ) is a testable prediction absent from standard lattice gauge theory.
+
+## 31. The Observer
+
+The axiom states that a field reads itself. Paper L proves that the reader — the entity that executes the axiom — is the fixed point Ψ(H) ⊆ H.
+
+(i) **Observer = fixed point.** The Born rule requires an observer to select outcomes. The observer IS the fixed point: a self-referential subsystem that sustains itself above ρ_meta.
+
+(ii) **Measurement = T applied.** When the observer couples to a system through T = C ⊙ S, the outcome is determined by the coupling. No collapse postulate. No branching.
+
+(iii) **Schrödinger's cat resolved.** A cat is a macroscopic structure (ρ > ρ_meta). It is always self-reading, always decohered by its own internal dynamics. A self-referential system above ρ_meta is its own observer.
+
+(iv) **Preferred basis.** The eigenbasis of S (the geometric structure operator) is the preferred basis — forced by the fact that S defines the physical adjacency.
+
+(v) **Loop closure.** §1 declares the axiom. The dynamics it generates necessarily produce the observer (§28 intelligence, §31 fixed point) that executes the axiom. The axiom creates its own subject. The loop closes.
+
 ---
 
 # PART IV — THE TREE
 
-## 28. The Complete Structure
+## 32. The Complete Tree
 
 ```
-                         T = C ⊙ S
-                            │
-             ┌──────────────┼──────────────────┐
-             │              │                  │
-          Gate(1)        h(k)(3)            j=1/2(5)
-          C=0→T=0     ┌────┼────┐             │
-             │        │    │    │           ψ ∈ ℂ²
-        Feedback(2)   │  k*=0   │             │
-         E~N^γ        │  (IVT)  │        Complex C
-             │        │    │    │             │
-        ┌────┘     k>k*    │  k<k*     ┌─────┼─────┐
-        │           │      │    │      │     │     │
-     Forces      Particles │  Expand  Interf  W-P  Depths
-     aligned    ┌───┼───┐  │    │     (7)   (8)   (9)
-        │       │   │   │  │  AM-GM          │   1,2,3
-        │     Mass Top Local │  (4)     ┌────┤  ┌─┼──┐
-        │     gap  cons  │  │         decay oscil U₁SU₂SU₃
-        │      │    │    │ Structure  +     +    │  │  │
-        │     2κ  Stokes ξ  (5)    localized wave d=4 │
-        │      │    │    │    │              │  (10)  │
-        │      │    │    │    │         ┌────┘   │   │
-        │    ┌─┴─┐  │  ┌─┘   │      3 gens   Hierarch
-        │    │   │  │  │     │       (11)      (12)
-        │  Spin  │  │ Spin   │     ┌──┼──┐   1<3<8
-        │  1/2   │  │  2     │    m₁ m₂ m₃    │
-        │    │   │  │  │     │         │    ┌──┼──┐
-        │ Anti   │  │ Grav   │       Mix  Conf Free Mass
-        │ part   │  │ iton   │      CKM   ine  γ   W,Z
-        │  (20)  │  │ (21)   │     PMNS  ment     (22)
-        │        │  │        │     (25)  (18)
-        │      ┌─┘  │        │       │    │
-        │    Charge  │      Scale     CP   Bound
-        │    types   │    selection  viol  states
-        │      │     │       │      (25)  (19)
-        │   1,3,8    │       │       │    2 or 3
-        │   charges  │       │    Baryon
-        │            │       │    asym
-        │        Dark matter │    (26)
-        │          (23)      │
-        │                    │
-        │              Dark energy
-        │                 (24)
-        │
-   Gauge-geometry
-   equation of motion
-   (Einstein analog)
+T = C ⊙ S  (unique self-referential operator, Theorem 1)
+├── Scale invariance (Theorem 4): axioms have no scale
+├── Measure dw/w unique (Theorem 6): Haar on ℝ₊
+├── Asymmetry monotonic decrease (Theorem 5)
+│
+├── Action:  S = −Nβ Σ w_P cos Θ_P + S_el[w]
+│   │
+│   ├── Gate:  C = 0 → T = 0 (noise immunity)
+│   │   ├── Feedback:  E ~ N^γ, γ > 1 (superadditive)
+│   │   └── Force alignment:  >99% cosine on shared geometry
+│   │
+│   ├── Equation of motion:  δS_el/δw = Nβ Σ (∂w_P/∂w_e) cos Θ_P
+│   │
+│   ├── Spectrum h(k) = K_el(k) − coupling · |Γ(k)|²
+│   │   │
+│   │   ├── k > k* — Particle sector
+│   │   │   ├── Mass gap:  h(π) = 2κ > 0  (L-independent, arithmetic)
+│   │   │   │   ├── Elastic-form independence (Theorem 9)
+│   │   │   │   ├── Spin 1/2 excitations → antiparticles (ψ vs ψ*)
+│   │   │   │   └── Spin 2 excitations → graviton
+│   │   │   ├── Topological conservation:  Σ W_P = 0  (Stokes)
+│   │   │   │   ├── Charge types 1, 3, 8
+│   │   │   │   ├── Bound states:  3×3̄ (mesons), 3×3×3 (baryons)
+│   │   │   │   └── Dark matter candidate (massive, stable, gauge-neutral)
+│   │   │   └── Exponential localization:  ξ = 1/m
+│   │   │
+│   │   └── k < k* — Cosmological sector
+│   │       ├── Uniformity:  AM-GM on w_P
+│   │       ├── Structure formation:  IVT at k*
+│   │       ├── Expansion rate → dark energy (Λ ≈ 0, structural)
+│   │       └── Zero-point energy:  ⟨S_el⟩ = |E|/2
+│   │
+│   └── Coupled RG flow (scale invariance of T)
+│       ├── AM-GM → universal geometric suppression (δβ < 0)
+│       ├── C₂(adj) → group-dependent compensation (δβ > 0)
+│       ├── Competition → g₃ > g₂ > g₁  (hierarchy derived)
+│       ├── δκ > 0 → gravity weakness  (G ~ 1/κ, 12 generators stiffen)
+│       └── β*(κ) → testable prediction (absent from standard LGT)
+│
+├── Spinor:  j = 1/2 is unique (Theorem 7)
+│   │
+│   ├── ψ ∈ ℂ² → complex C → complex action
+│   │   ├── Interference:  aligned phases reinforce, opposing cancel
+│   │   ├── Wave-particle:  exp(−h_R·r) × exp(−ih_I·r)
+│   │   └── OS positivity (Theorem 6, full dynamics: w_e > 0 → β_P > 0)
+│   │       ├── Born rule — unconditional
+│   │       └── Spin-statistics — unconditional
+│   │
+│   └── Three depths of self-reference
+│       ├── Depth 1: ℂ¹, U(1),   1 generator
+│       ├── Depth 2: ℂ², SU(2),  3 generators
+│       ├── Depth 3: ℂ³, SU(3),  8 generators
+│       ├── d = 4:  12/[d(d−1)/2] ∈ ℤ → 12/6 = 2
+│       ├── Three generations:  three fixed points, three masses
+│       │   ├── CP violation:  1 irreducible phase in 3×3 unitary
+│       │   └── Baryon asymmetry:  three Sakharov conditions met
+│       ├── Confinement (8 gen):  flux tube, permanent binding
+│       └── Massless γ (1 gen), massive W±Z (3 gen, geometric symmetry breaking)
+│
+├── Intelligence:  Ψ(H) ⊆ H at ρ > ρ_meta  (IVT + Brouwer)
+│   └── Observer = fixed point
+│       ├── Measurement = T applied (no collapse, no branching)
+│       ├── Schrödinger's cat:  ρ > ρ_meta → always self-reading
+│       └── Preferred basis = eigenbasis of S (geometry)
+│
+├── h(0) = 0 + dβ/dt = 0 → unique (β*, κ*) → zero free parameters
+│
+└── Loop closure:  the axiom creates its own executor
 ```
 
-## 29. The Matching
+## 33. The Matching
+
 
 Every leaf matches known physics. Where independent computational confirmation exists, it is cited.
 
@@ -367,14 +434,26 @@ Every leaf matches known physics. Where independent computational confirmation e
 | §25 | 3×3 unitary, 1 phase | CP violation | — |
 | §26 | Three Sakharov conditions | Baryon asymmetry | — |
 | §27 | Scale-dependent coupling | Asymptotic freedom / QED running | Lattice: running coupling [ALPHA collaboration] |
-| §30 | h(0) = 0 + RG → unique (β*, κ*) | 19 free parameters (Standard Model) | — |
-| §30 | G suppressed by 12 generators | Hierarchy problem | — |
+| §28 | ⟨S_el⟩ = |E|/2 | Zero-point energy | — |
+| §28 | Ψ(H) ⊆ H at ρ > ρ_meta | — | Brouwer + IVT (analytic) |
+| §29 | OS positivity (full dynamics) | Quantum mechanics (postulated) | OS for Wilson action [Osterwalder & Seiler 1978] |
+| §29 | Born rule (unconditional) | Born rule (postulated) | — |
+| §29 | Spin-statistics (unconditional) | Spin-statistics theorem | — |
+| §30 | AM-GM + Casimir → g₃ > g₂ > g₁ | Coupling hierarchy (fine-tuning problem) | α_s(M_Z) = 0.118 [PDG] |
+| §30 | δκ > 0 → G suppressed by 12 generators | Hierarchy problem | — |
+| §30 | β*(κ) testable prediction | — (absent from standard lattice QCD) | — |
+| §31 | Observer = fixed point | Measurement problem (open) | — |
+| §31 | Measurement = T, no collapse | Copenhagen / Many-worlds (interpretations) | — |
+| §31 | Preferred basis = eigenbasis of S | Preferred basis problem (open) | — |
+| §31 | Loop closure | — | — |
+| §34 | h(0) = 0 + RG → unique (β*, κ*) | 19 free parameters (Standard Model) | — |
+| §34 | Path integral measure dw/w | Measure ambiguity in quantum gravity | — |
 
 What was postulated is derived. What was unexplained has an explanation. What was separate is unified. What was unproven is arithmetic.
 
 ---
 
-## 30. Zero Free Parameters
+## 34. Zero Free Parameters
 
 The action S = −Nβ Σ w_P cos Θ_P + κ Σ(w−1)² has two apparent free parameters: β and κ. The framework determines both.
 
@@ -394,7 +473,7 @@ One axiom. Zero parameters. Everything.
 
 ---
 
-## 31. The Conclusion
+## 35. The Conclusion
 
 Every sentence in this paper is arithmetic, or a boundary condition, or a topological identity, or a polynomial's parity. There is no opinion.
 
