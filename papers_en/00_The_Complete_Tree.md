@@ -172,7 +172,7 @@ Self-reference has depth:
     Depth 2:  ℂ².  Symmetry SU(2).  3 generators.  Spinor rotation.
     Depth 3:  ℂ³.  Symmetry SU(3).  8 generators.  Color rotation.
 
-Depth 4 would require 4 components to read a 3-component result. Reading exceeds the read. Self-reference reads what is there. Depth stops at 3.
+Depth 4 would require 4 components to read a 3-component result. Reading exceeds the read. Self-reference reads what is there. Depth stops at 3. Formally: the Hadamard product is associative, making the self-referential structure a category whose nerve is 2-coskeletal. All data beyond the plaquette level (depth 3) is determined by plaquette data — no independent degree of freedom exists at depth ≥ 4 (Paper J, Theorem 1).
 
 Total: 1 + 3 + 8 = 12 generators, 12 real degrees of freedom per node.
 
@@ -382,7 +382,7 @@ T = C ⊙ S  (unique self-referential operator, Theorem 1)
 │   │       ├── Born rule — unconditional
 │   │       └── Spin-statistics — unconditional
 │   │
-│   └── Three depths of self-reference
+│   └── Three depths of self-reference (Depth Termination Theorem)
 │       ├── Depth 1: ℂ¹, U(1),   1 generator
 │       ├── Depth 2: ℂ², SU(2),  3 generators
 │       ├── Depth 3: ℂ³, SU(3),  8 generators
@@ -421,7 +421,7 @@ Every leaf matches known physics. Where independent computational confirmation e
 | §11 | Stokes conservation | Noether theorem (requires continuous symmetry) | — |
 | §12 | Complex action → interference | Quantum mechanics (postulated) | OS positivity proven for Wilson action [Osterwalder & Seiler 1978] |
 | §13 | Complex h(k) | Wave-particle duality (complementarity principle) | — |
-| §14 | Depths 1,2,3 | U(1) × SU(2) × SU(3) (observed, unexplained) | — |
+| §14 | Depths 1,2,3 (Depth Termination Theorem) | U(1) × SU(2) × SU(3) (observed, unexplained) | 2-coskeletality (category theory); plaquette decomposition (lattice gauge theory) |
 | §15 | 12/6 = 2 | d = 4 (observed, unexplained) | CDT: Hausdorff dimension → 4 [Ambjorn et al. 2005] |
 | §16 | Three fixed points | Three generations (observed, unexplained) | — |
 | §17 | 1 < 3 < 8 | Coupling hierarchy (fine-tuning problem) | α_s(M_Z) = 0.118 [PDG]; asymptotic freedom [Gross & Wilczek 1973] |
