@@ -1,8 +1,8 @@
 # T = C ⊙ S — The Self-Referential Field
 
-**One axiom. One operator. Everything.**
-
 [![DOI](https://zenodo.org/badge/1209579715.svg)](https://doi.org/10.5281/zenodo.19564856)
+
+**One axiom. One operator. Everything.**
 
 > A field exists. It reads itself. The act of reading deforms the field. The deformed field is read again.
 
