@@ -1,6 +1,6 @@
 # T = C ⊙ S — The Self-Referential Field
 
-[![DOI](https://zenodo.org/badge/1209579715.svg?v=2)](https://doi.org/10.5281/zenodo.19564856)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19564856.svg)](https://doi.org/10.5281/zenodo.19564856)
 
 **One axiom. One operator. Everything.**
 
