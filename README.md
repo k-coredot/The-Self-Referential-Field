@@ -107,10 +107,10 @@ Axiom (self-referential reading)
 
 ```
 papers/
-  00_One.md / 00_One_KR.md                                — Skeleton (EN/KR)
-  00_The_Complete_Tree.md / 00_The_Complete_Tree_KR.md     — Complete tree (EN/KR)
+  00_One.md / 00_One_KR.md                                 — Skeleton (EN/KR)
+  00_The_Complete_Tree.md / _KR.md                         — Complete tree (EN/KR)
   A_Math_Paper_Hadamard_Structure.md / _KR.md              — Operator uniqueness + Measure
-  A_Applied_PIM.md / _KR.md                               — Application: Processing-in-Memory
+  A_Applied_PIM.md / _KR.md                                — Application: Processing-in-Memory
   B_Physics_Paper_Gauge_Geometry.md / _KR.md               — Monte Carlo verification
   C_GNN_Paper_Multiplicative_Coupling.md / _KR.md          — Multiplicative coupling necessity
   C_Applied_Noise_Immunity.md / _KR.md                     — Application: noise gating
