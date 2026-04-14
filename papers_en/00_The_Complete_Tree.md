@@ -334,6 +334,7 @@ The axiom states that a field reads itself. Paper L proves that the reader — t
 
 ```
 T = C ⊙ S  (unique self-referential operator, Theorem 1)
+│
 ├── Scale invariance (Theorem 4): axioms have no scale
 ├── Measure dw/w unique (Theorem 6): Haar on ℝ₊
 ├── Asymmetry monotonic decrease (Theorem 5)
