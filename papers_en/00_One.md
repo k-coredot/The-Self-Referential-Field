@@ -110,7 +110,7 @@ Each depth requires components to encode the reading:
     Depth 2: ℂ².  Symmetry SU(2).  3 generators.
     Depth 3: ℂ³.  Symmetry SU(3).  8 generators.
 
-Depth 4 would read a 3-component result with 4 components. The reading exceeds the read. Redundancy. Self-reference reads what is there, not what is not. Depth stops at 3.
+Depth 4 would read a 3-component result with 4 components. The reading exceeds the read. Redundancy. Self-reference reads what is there, not what is not. Depth stops at 3. This is a theorem: the Hadamard product is associative, so any composition of compositions decomposes uniquely into plaquette-level data. In categorical language, the nerve is 2-coskeletal — depth ≥ 4 carries no independent information (Paper J, Theorem 1).
 
 Total: 1 + 3 + 8 = 12 generators. 6 complex = 12 real degrees of freedom per node.
 
