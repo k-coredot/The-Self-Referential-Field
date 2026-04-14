@@ -1,0 +1,31 @@
+{
+  "title": "T = C ⊙ S: The Self-Referential Field Framework — Complete Paper Series",
+  "description": "A field that reads itself admits one composition: T = C ⊙ S. This repository contains the complete series of 21 papers (English and Korean) deriving gauge-geometry coupling, matter, quantum mechanics, cosmology, and the observer from this single axiom. Includes simulation code, data files, and figures.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Kwon, Hyeokjun",
+      "affiliation": "Independent Researcher",
+      "orcid": "여기에_ORCID_입력"
+    }
+  ],
+  "keywords": [
+    "self-referential dynamics",
+    "Hadamard product",
+    "gauge-geometry coupling",
+    "lattice gauge theory",
+    "emergent cosmology",
+    "graph neural networks",
+    "multiferroic energy harvesting"
+  ],
+  "license": "CC-BY-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/k-coredot/The-Self-Referential-Field",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "language": "eng"
+}
