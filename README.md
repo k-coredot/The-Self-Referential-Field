@@ -2,6 +2,8 @@
 
 **One axiom. One operator. Everything.**
 
+[![DOI](https://zenodo.org/badge/1209579715.svg)](https://doi.org/10.5281/zenodo.19564856)
+
 > A field exists. It reads itself. The act of reading deforms the field. The deformed field is read again.
 
 From this axiom, a unique operator T = C ⊙ S (Hadamard product of content similarity and structure weight) is derived. From this operator, the following emerge without additional assumptions:
