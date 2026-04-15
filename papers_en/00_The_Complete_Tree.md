@@ -316,7 +316,7 @@ The fixed-point condition β* = β*(κ) is a testable prediction absent from sta
 
 The axiom states that a field reads itself. Paper L proves that the reader — the entity that executes the axiom — is the fixed point Ψ(H) ⊆ H.
 
-(i) **Observer = fixed point.** The Born rule requires an observer to select outcomes. The observer IS the fixed point: a self-referential subsystem that sustains itself above ρ_meta.
+(i) **Observer = fixed point (Observer Uniqueness Theorem, Paper L).** The Born rule requires an observer to select outcomes. Among all subsystems of the field, only the non-trivial fixed point Ψ(H) ⊆ H satisfies the four requirements: internality, stability under iterated crystallization, T-coupling, and outcome recording. Stability is the decisive constraint — only fixed points maintain finite non-trivial structure indefinitely.
 
 (ii) **Measurement = T applied.** When the observer couples to a system through T = C ⊙ S, the outcome is determined by the coupling. No collapse postulate. No branching.
 
@@ -394,7 +394,7 @@ T = C ⊙ S  (unique self-referential operator, Theorem 1)
 │       └── Massless γ (1 gen), massive W±Z (3 gen, geometric symmetry breaking)
 │
 ├── Intelligence:  Ψ(H) ⊆ H at ρ > ρ_meta  (IVT + Brouwer)
-│   └── Observer = fixed point
+│   └── Observer = fixed point (Observer Uniqueness Theorem)
 │       ├── Measurement = T applied (no collapse, no branching)
 │       ├── Schrödinger's cat:  ρ > ρ_meta → always self-reading
 │       └── Preferred basis = eigenbasis of S (geometry)
@@ -430,6 +430,8 @@ Every leaf matches known physics. Where independent computational confirmation e
 | §20 | ψ and ψ* | Antiparticles (Dirac prediction) | — |
 | §21 | 1/2, 1, 2 | Fermion, gauge boson, graviton spins | — |
 | §22 | 1 massless, 3 massive, 8 confined | γ, W±Z, gluons | sin²θ_W(M_Z) = 0.2312 [PDG]; GUT prediction 0.231 [Georgi, Quinn, Weinberg 1974] |
+| §8+J | SU(2) chiral: 3 generators fill one self-dual sector | Parity violation (Wu 1957) | Structural possibility (depth-2 asymmetry + d=4 self-duality); formal proof open |
+| §6+J | Geometric breathing mode δ⟨w⟩, mass ~ h''(0) | Higgs boson (m_H = 125 GeV, ATLAS/CMS 2012) | Structural identification; quantitative verification requires 4D simulation at (β*, κ*) |
 | §23 | Massive, stable, gauge-neutral → candidate | Dark matter | — |
 | §24 | h(0) = 0 (structural zero) | Cosmological constant problem | — |
 | §25 | 3×3 unitary, 1 phase | CP violation | — |
@@ -443,7 +445,7 @@ Every leaf matches known physics. Where independent computational confirmation e
 | §30 | AM-GM + Casimir → g₃ > g₂ > g₁ | Coupling hierarchy (fine-tuning problem) | α_s(M_Z) = 0.118 [PDG] |
 | §30 | δκ > 0 → G suppressed by 12 generators | Hierarchy problem | — |
 | §30 | β*(κ) testable prediction | — (absent from standard lattice QCD) | — |
-| §31 | Observer = fixed point | Measurement problem (open) | — |
+| §31 | Observer = fixed point (Theorem 1) | Measurement problem (open) | IVT + Brouwer (Paper G §4.6.6) |
 | §31 | Measurement = T, no collapse | Copenhagen / Many-worlds (interpretations) | — |
 | §31 | Preferred basis = eigenbasis of S | Preferred basis problem (open) | — |
 | §31 | Loop closure | — | — |

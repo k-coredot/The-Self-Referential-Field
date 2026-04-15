@@ -149,7 +149,13 @@ For U(1): b₀ = 0. No gauge compensation. Only geometric suppression. β decrea
 
 **Result: g₃ > g₂ > g₁.** The observed couplings at M_Z confirm this ordering: α_s = 0.1179 ± 0.0010, α₂ ≈ 1/30, α₁ ≈ 1/59 [PDG 2024]. The ratio α_s/α_em ≈ 15. This hierarchy is derived here from the Casimir ordering C₂(SU(3)) > C₂(SU(2)) > C₂(U(1)) = 0 combined with universal AM-GM suppression — not fitted to data.
 
-Furthermore, the single-β origin (§10) implies sin²θ_W(M_GUT) = 3/(3+5) = 3/8 at the unification scale, the same prediction as SU(5) GUT [Georgi, Quinn, Weinberg, PRL 33, 1974]. Standard RG running yields sin²θ_W(M_Z) ≈ 0.231, in agreement with the measured value 0.23122 ± 0.00003 [PDG 2024]. In the Hadamard framework, this is not an assumption of grand unification but a consequence of all three gauge couplings originating from a single β*.
+Furthermore, the single-β origin (§10) implies sin²θ_W(M_GUT) = 3/8 at the unification scale. The derivation:
+
+At the self-consistent point (β*, κ*), all three gauge couplings originate from a single β*. At this scale, g₁ = g₂ = g₃ ≡ g_*. The weak mixing angle is sin²θ_W = g'²/(g² + g'²), where g' is the hypercharge coupling. The relation g' = √(3/5) g₁ is a group-theoretic normalization factor — the ratio Tr(Y²)/Tr(T₃²) over a complete fermion multiplet, determined by the representation content of U(1) × SU(2) × SU(3), not by any assumption of grand unification. At the single-β* scale where g₁ = g₂:
+
+    sin²θ_W = (3/5)g²/(g² + (3/5)g²) = (3/5)/(8/5) = 3/8
+
+This is the same prediction as SU(5) GUT [Georgi, Quinn, Weinberg, PRL 33, 1974], but here it arises without postulating a unifying group — it follows from all three couplings sharing one origin β*. Standard RG running yields sin²θ_W(M_Z) ≈ 0.231, in agreement with the measured value 0.23122 ± 0.00003 [PDG 2024].
 
 ### 6.2 Structure of the Hierarchy
 

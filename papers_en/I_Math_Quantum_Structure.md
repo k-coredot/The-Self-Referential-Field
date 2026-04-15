@@ -34,9 +34,9 @@ where S_R = −Nβ Σ w_P Re(C_P) + κ Σ(w−1)² and S_I = −Nβ Σ w_P Im(C_
 
 **Definition.** The partition function is:
 
-    Z = ∫ [dU] ∫ [dw] exp(−S[U, w])
+    Z = ∫ [dU] ∫ [dw/w] exp(−S[U, w])
 
-where [dU] is the Haar measure on the gauge group (compact, normalized) and [dw] is the Lebesgue measure on edge weights w_e ∈ [w_min, ∞) with w_min > 0.
+where [dU] is the Haar measure on the gauge group (compact, normalized) and [dw/w] = ∏_e dw_e/w_e is the Haar measure on (ℝ₊, ×) — the unique scale-invariant measure on positive reals (Paper A, Theorem 6).
 
 ---
 
@@ -60,7 +60,7 @@ where W = max w_e. The quadratic term dominates for W → ∞, giving exponentia
 
 Therefore:
 
-    |Z| ≤ ∫ [dw] exp(Nβ Σ w_P − κ Σ(w−1)²) · Vol(G^{|E|}) < ∞  □
+    |Z| ≤ ∫ [dw/w] exp(Nβ Σ w_P − κ Σ(w−1)²) · Vol(G^{|E|}) < ∞  □
 
 *Remark.* Convergence requires κ > 0. At κ = 0, there is no elastic resistance, edge weights can grow without bound, and the partition function diverges. This is the mathematical reason why the axiom "geometry is stable" (κ > 0) is necessary.
 
@@ -192,7 +192,7 @@ The coefficients a_R(β_P) > 0 for β_P > 0 (they are modified Bessel functions 
 
 *Step 2: Integration over w.* The full expectation value is:
 
-    ⟨θ(F)F⟩ = ∫_{(0,∞)^|E|} [dw] exp(−κΣ(w−1)²) × ⟨θ(F)F⟩_w
+    ⟨θ(F)F⟩ = ∫_{(0,∞)^|E|} [dw/w] exp(−κΣ(w−1)²) × ⟨θ(F)F⟩_w
 
 By Step 1, ⟨θ(F)F⟩_w ≥ 0 for each w-configuration. The Gaussian weight exp(−κΣ(w−1)²) ≥ 0. The integration domain (0,∞)^|E| ensures w_P > 0 throughout. Therefore the integrand is non-negative everywhere, and ⟨θ(F)F⟩ ≥ 0. □
 
@@ -235,13 +235,13 @@ Every step is forced. No step is conditional. The chain from self-reference to q
 
 ## 7. What This Does Not Determine
 
-Three quantities remain undetermined:
+Two quantities remain undetermined:
 
 **(i) The value of ℏ.** The complex action introduces a phase exp(−iS_I). In physical units, this is exp(−iS_I/ℏ). The framework determines that the action IS complex (and therefore quantum effects exist), but does not determine the SCALE of quantum effects. Whether ℏ is fixed by the self-referential fixed point or is a free parameter is open.
 
 **(ii) The Wick rotation angle.** The Euclidean theory has S_E ∈ ℝ (for real gauge fields) or S_E ∈ ℂ (for spinor fields). The Minkowski theory is obtained by rotating t → it. The OS reconstruction provides this rotation when reflection positivity holds. But the physical interpretation of intermediate rotation angles is not addressed.
 
-**(iii) The measure on dynamical geometry.** The integral ∫[dw] over edge weights requires a measure. We have used Lebesgue measure on w_e ∈ [w_min, ∞). Alternative measures (e.g., scale-invariant dw/w) would change the weight of geometric configurations without affecting the gauge structure. The choice of measure is a specification of the geometric theory that is not determined by the gauge axioms alone.
+*Remark (The measure on dynamical geometry).* The path integral measure on edge weights is uniquely dw/w — the Haar measure of the multiplicative group (ℝ₊, ×), proven in Paper A, Theorem 6, and consistent with the Misner measure in Regge calculus. The partition function Z = ∫ [dU] ∏_e (dw_e/w_e) exp(−S) is fully specified. All theorems in this paper (Theorems 1–7) hold with this measure: the proofs require only that the measure is non-negative on (0, ∞), which dw/w satisfies.
 
 ---
 

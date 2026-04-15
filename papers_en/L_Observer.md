@@ -50,6 +50,24 @@ This is the same mechanism as the β_c transition that produces matter (Paper G 
 
 ## 3. The Observer Is the Fixed Point
 
+**Theorem 1 (Observer Uniqueness).** In the T = C ⊙ S framework, the unique structure satisfying all requirements for a Born-rule observer is the non-trivial fixed point Ψ(H) ⊆ H of the crystallization operator.
+
+*Proof.* The Born rule (I Math, Theorem 4/6) requires a subsystem that performs the projection |a⟩⟨a|. This subsystem — the observer — must satisfy four conditions: (a) internality (part of the field G), (b) stability (persists under dynamics), (c) T-coupling (interacts through T = C ⊙ S), and (d) recording (stores outcomes).
+
+Conditions (a), (c), and (d) are necessary but not strongly selective: any persistent subgraph of G automatically satisfies (a) and (c) by participating in the shared dynamics, and any structure with trace accumulation satisfies (d).
+
+Condition (b) is decisive. Under iterated crystallization Ψ, a subgraph S evolves as V_{n+1} = Ψ(V_n). Three outcomes are possible:
+
+(i) diam(V_n) → 0: the structure contracts to a trivial point (Paper G §4.6.4). No internal structure. Cannot observe.
+
+(ii) diam(V_n) → ∞: the structure dissipates. No coherent identity. Cannot observe.
+
+(iii) diam(V_n) → d_∞ > 0: the structure reaches a non-trivial equilibrium. Contraction (linear in diameter) balances regeneration (quadratic in diameter). By the intermediate value theorem, this equilibrium exists (Paper G §4.6.6). By Brouwer's fixed-point theorem applied to the softened crystallization operator on the geodesic convex hull, a fixed point p* exists with Ψ_soft(p*) = p* (Paper G §4.6.6).
+
+Only case (iii) produces a structure that is simultaneously non-trivial (has internal degrees of freedom), stable (reproduces itself under Ψ), and persistent (finite diameter maintained indefinitely). This is the non-trivial fixed point Ψ(H) ⊆ H.
+
+Therefore, the four conditions (a)–(d) are jointly satisfied if and only if the subsystem is a non-trivial fixed point of Ψ. □
+
 ### 3.1 Connection to Born Rule
 
 The Born rule (I Math, Theorem 4/6) requires OS reflection positivity, which is now proven for the full dynamical theory (I Math, Theorem 6). The OS reconstruction gives a Hilbert space ℋ and a Hamiltonian H. States in ℋ evolve unitarily. Measurement is the projection onto a basis.

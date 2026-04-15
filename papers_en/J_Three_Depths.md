@@ -119,6 +119,8 @@ The strength of the coupling at each depth is determined by the number of genera
 
 **Depth 2 (3 generators):** Three feedback channels. Intermediate coupling. Non-abelian, but weaker than depth 3. The expansion of geometry (Paper G) breaks the vacuum symmetry at depth 2. The product T = C ⊙ S couples geometry and content: when geometric symmetry breaks, content symmetry inherits the breaking. Three mediators acquire mass.
 
+**The Higgs identification.** In the Standard Model, electroweak symmetry breaking is driven by a scalar (Higgs) field, producing the Higgs boson (m_H ≈ 125 GeV). In this framework, no separate scalar field is introduced. The symmetry-breaking mechanism is geometric expansion — the instability h(0) < 0 that drives the scale factor a(t) to grow (Paper G). The scalar excitation corresponding to the Higgs boson is the radial fluctuation δa = δ⟨w⟩ around the symmetry-breaking vacuum — a collective oscillation of edge weights at the k ≈ 0 scale. Its mass is determined by the curvature of h(k) at k = 0: m_H² ∝ h''(0). This identification is structural: the Higgs is not an additional field but a geometric degree of freedom — the breathing mode of the lattice. Quantitative verification requires computing h''(0) at the self-consistent point (β*, κ*) in 4D.
+
 **Depth 1 (1 generator):** One feedback channel. Weakest gauge coupling. Abelian — the mediator carries no charge, does not self-interact. No mechanism for mass acquisition. The mediator is massless.
 
 **Geometry:** The geometric excitations (Paper H, mass gap 2κ) have their mass set by the elastic stiffness κ, which appears in a different term of the action than the gauge coupling β. The two scales are structurally independent — their ratio is not tuned but is a consequence of the action's multiplicative structure.
@@ -177,6 +179,7 @@ The depth structure determines the FORM of the gauge groups, the NUMBER of gener
 - The absolute values of coupling constants (these depend on β/κ).
 - The absolute values of particle masses (these depend on the fixed-point energies).
 - The mixing angles between generations (these depend on the overlap between cycles at different depths).
+- **The chiral structure of SU(2).** In the Standard Model, SU(2)_L couples only to left-handed fermions. The depth structure provides a structural reason why chirality should exist but does not yet determine its form. The argument: in d = 4, the value 12/6 = 2 reflects the self-dual/anti-self-dual decomposition unique to four dimensions. The 3 generators of SU(2) fit into exactly one of the two sectors (self-dual or anti-self-dual), not both — because 3 is exactly half of 6. This means SU(2) acts on one chirality, not two. Furthermore, depth 2 is inherently asymmetric: "the reader reads the read" distinguishes an active role from a passive one, which maps naturally to the distinction between left-handed (active, couples to SU(2)) and right-handed (passive, SU(2)-singlet). However, a formal derivation showing that the self-referential asymmetry of depth 2 uniquely selects one chirality has not been performed. This is an open problem.
 
 These quantities require solving the self-referential fixed-point equation at each depth — a computation that is well-defined but not yet performed.
 
