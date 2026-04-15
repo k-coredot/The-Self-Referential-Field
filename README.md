@@ -127,6 +127,7 @@ papers/
   H_Applied_Topological_Devices.md / _KR.md                — Application: topological devices
   I_Quantum_Interference.md / _KR.md                       — Quantum interference
   I_Math_Quantum_Structure.md / _KR.md                     — Quantum structure (math)
+  I_Applied_Photonic_Computing.md / _KR.md                 — Application: photonic computing
   J_Three_Depths.md / _KR.md                               — Three depths + Hierarchy + Gravity
   K_RG_Flow.md / _KR.md                                    — Coupled RG flow + Parameters
   L_Observer.md / _KR.md                                   — Observer as fixed point
@@ -141,6 +142,8 @@ code/
   su2_4d_colab.py                    — SU(2) 4D Colab notebook
   rg_calculation.py                  — 1-loop RG: geometry sector
   rg_full.py                         — 1-loop RG: geometry + gauge
+  photonic_hadamard_nn.py            — Photonic neural network noise tolerance
+  unified_photonic_sim.py            — Cross-domain photonic verification
 ```
 
 ## License
